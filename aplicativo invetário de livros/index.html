@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventário de Livros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Inventário de Livros</h1>
+    <p class="description">Acompanhe suas leituras e descubra o que ler em seguida.</p>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Título</th>
+            <th scope="col">Autor(a)</th>
+            <th scope="col">Categoria</th>
+            <th scope="col">Status</th>
+            <th scope="col">Avaliação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="read">
+            <td>Clean Code</td>
+            <td>Robert C. Martin</td>
+            <td>Tecnologia</td>
+            <td><span class="status">Lido</span></td>
+            <td>
+              <span class="rate three" role="img" aria-label="3 de 3">
+                <span></span><span></span><span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>The Pragmatic Programmer</td>
+            <td>Andrew Hunt e David Thomas</td>
+            <td>Engenharia de software</td>
+            <td><span class="status">Lido</span></td>
+            <td>
+              <span class="rate two" role="img" aria-label="2 de 3">
+                <span></span><span></span><span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>Dune</td>
+            <td>Frank Herbert</td>
+            <td>Ficção científica</td>
+            <td><span class="status">Lido</span></td>
+            <td>
+              <span class="rate one" role="img" aria-label="1 de 3">
+                <span></span><span></span><span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="in-progress">
+            <td>Atomic Habits</td>
+            <td>James Clear</td>
+            <td>Autoajuda</td>
+            <td><span class="status">Em andamento</span></td>
+            <td>
+              <span class="rate" role="img" aria-label="Sem avaliação">
+                <span></span><span></span><span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="to-read">
+            <td>1984</td>
+            <td>George Orwell</td>
+            <td>Distopia</td>
+            <td><span class="status">Quero ler</span></td>
+            <td>
+              <span class="rate" role="img" aria-label="Sem avaliação">
+                <span></span><span></span><span></span>
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
